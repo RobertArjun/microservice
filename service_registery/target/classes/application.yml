@@ -1,0 +1,15 @@
+server:
+  port: 8271
+  servlet:
+    context-path: /myeureka
+  
+spring:
+  application:
+    name: service-registery
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
